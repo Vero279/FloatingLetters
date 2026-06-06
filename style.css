@@ -1,7 +1,54 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #e8f4f8;  /* fundo claro azulado para toda a página */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header {
+  text-align: center;
+  padding: 0.8rem 1rem 0.2rem;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid #d94f4f;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #b23b3b;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  color: #9e5a5a;
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
 canvas {
   display: block;
+  max-width: 100%;
+  height: auto !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #3b5e6b;
+  padding: 0.6rem 1rem 1rem;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-top: 2px solid #b23b3b;
+  line-height: 1.4;
 }
